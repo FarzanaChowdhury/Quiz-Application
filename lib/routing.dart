@@ -3,10 +3,16 @@ import 'package:go_router/go_router.dart';
 
 import 'intro.dart';
 import 'quiz.dart';
+import 'result.dart';
+import 'timer.dart';
+
+//final MyTimerState myTimerState;
+final myTimerState = MyTimerState();
 
 final GoRouter _router = GoRouter(
   routes: <RouteBase>[
-    GoRoute(path: '/',
+    GoRoute(
+      path: '/',
       builder: (BuildContext context, GoRouterState state) {
         return IntroPage();
       },
@@ -16,12 +22,19 @@ final GoRouter _router = GoRouter(
           builder: (BuildContext context, GoRouterState state) {
             return QuizPage();
           },
+          // routes: <RouteBase>[
+          //   GoRoute(
+          //     path: 'result',
+          //     builder: (BuildContext context, GoRouterState state) {
+          //      // return const ResultPage();
+          //     },
+          //   ),
+          // ],
         ),
       ],
     ),
   ],
 );
-
 class MyApp extends StatelessWidget {
   MyApp({super.key});
 

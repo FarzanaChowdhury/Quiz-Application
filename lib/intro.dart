@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'main.dart';
 
 
 class IntroPage extends StatelessWidget{
@@ -10,18 +11,11 @@ class IntroPage extends StatelessWidget{
     return Scaffold(
       backgroundColor: Color.fromRGBO(85,4,194,1),
       appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-       // backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
+
         title: const Text('Welcome',),
         backgroundColor: Color.fromRGBO(0,0,63,1),
       ),
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
 
@@ -58,9 +52,10 @@ class IntroPage extends StatelessWidget{
             ),),
             onPressed: () {
 
-
               // Navigate to the quiz page
               context.go('/quiz');
+
+
             }
     )
           ],

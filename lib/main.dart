@@ -4,5 +4,3 @@ import 'package:quiz_application/routing.dart';
 void main() {
   runApp(MyApp());
 }
-
-
