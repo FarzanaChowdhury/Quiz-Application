@@ -1,16 +1,10 @@
 # quiz_application
 
-A new Flutter project.
 
-## Getting Started
+A quiz app with timer
 
-This project is a starting point for a Flutter application.
+## Demo
+![](https://github.com/FarzanaChowdhury/Quiz-Application/blob/master/demo/quiz1.png)
+![](https://github.com/FarzanaChowdhury/Quiz-Application/blob/master/demo/quiz2.png)
+![](https://github.com/FarzanaChowdhury/Quiz-Application/blob/master/demo/quiz3.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
